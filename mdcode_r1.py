@@ -69,7 +69,7 @@ def velocity_verlet(positions, velocities, forces, dt, box_size):
   return positions, velocities
 
 # Simulation parameters
-N = 100  # Number of particles
+N = 2  # Number of particles
 box_size = 10.0  # Size of the simulation box
 dt = 0.001  # Time step
 num_steps = 10000  # Number of simulation steps
